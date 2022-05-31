@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.0/redux.min.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Introduction à Redux en JS vanilla</title>
 </head>
 <body>
     <h1>Application exemple</h1>
-    <div class="container">
-        <img src="./images/phone.png" alt="phone">
-        <p>Disponibilité:<span id="count"></span></p>
-        <button id="buy-phone">Acheter</button>
-    </div>
+    <section class="section--1">
+        <div class="container">
+            <img src="./images/phone.png" alt="phone">
+            <p>Disponibilité:<span id="countPhone"></span></p>
+            <button id="buy-phone">Acheter</button>
+        </div>
+        <div class="container">
+            <img src="./images/tablette.png" alt="tablet">
+            <p>Disponibilité:<span id="countTablet"></span></p>
+            <button id="buy-tablet">Acheter</button>
+        </div>
+        <div class="container">
+            <img src="./images/tv.png" alt="tv">
+            <p>Disponibilité:<span id="countTv"></span></p>
+            <button id="buy-tv">Acheter</button>
+        </div>
+    </section>
     <script src="./script.js">
-
     </script>
 </body>
 </html>

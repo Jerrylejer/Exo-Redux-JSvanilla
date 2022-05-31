@@ -45,3 +45,8 @@ button:hover {
     background: rgb(54, 4, 54);
 }
 
+.section--1 {
+        display: flex;
+        margin: 70px;
+}
+
