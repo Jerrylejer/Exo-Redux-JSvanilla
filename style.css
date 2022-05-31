@@ -1,0 +1,47 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 250px;
+    min-height: 50px;
+    padding: 20px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container p {
+    text-align: center;
+}
+
+img {
+    margin: 0 auto;
+}
+
+#count {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+button {
+    border: 1px solid purple;
+    background: purple;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(54, 4, 54);
+    background: rgb(54, 4, 54);
+}
+
